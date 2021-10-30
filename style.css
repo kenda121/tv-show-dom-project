@@ -1,3 +1,35 @@
-#root {
-  color: red;
+nav{
+  background-color: aquamarine;
 }
+
+
+#root {
+  color: rgb(39, 51, 104);
+  font-family: ;
+}
+ .flex-container {
+  gap: 1rem; 
+  display: inline-flex; 
+  
+   
+  flex-wrap: wrap;
+  background-color: DodgerBlue;
+
+  
+   
+  background-color: #dbd7d7;
+}
+.cardepisodes {
+  flex-wrap: wrap;
+   display: flex;
+   flex-direction:column ;
+   justify-content: center;
+  background-color:#190c42;
+ width: 400px;
+  
+ /*padding: 50px 50px 50px 50px;
+  margin-bottom: 30px;
+  margin-left: 30px;*/
+
+}
+ 
