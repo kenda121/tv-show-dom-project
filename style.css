@@ -1,35 +1,67 @@
 nav{
+  background-color: #0a0a0a;
+  height: 70px;
+  padding: 30px;
+}
+h3{
+  font-family: 'Anton', sans-serif;
+  color:palevioletred ;
+}
+.stylesearchbut{
+  
+  margin-left: 40px;
+  margin-top: 30px;
+  padding: 20px;
+}
+#showcardpage{
+  background-color: antiquewhite;
+}
+
+.body{
+ background-color:#1f1b1b ;
+}
+#showpage {
   background-color: aquamarine;
+
+}
+#episodepage {
+  background-color: blue;
 }
 
-
-#root {
-  color: rgb(39, 51, 104);
-  font-family: ;
-}
  .flex-container {
   gap: 1rem; 
   display: inline-flex; 
-  
-   
   flex-wrap: wrap;
-  background-color: DodgerBlue;
-
-  
-   
-  background-color: #dbd7d7;
+  padding-top: 20px;
+  background-color: #1f1b1b;
+justify-content: center;
+  margin: 30px;
 }
 .cardepisodes {
   flex-wrap: wrap;
    display: flex;
    flex-direction:column ;
-   justify-content: center;
-  background-color:#190c42;
+   padding: 30px;
+  background-color:#0a0a0a;
  width: 400px;
-  
- /*padding: 50px 50px 50px 50px;
-  margin-bottom: 30px;
-  margin-left: 30px;*/
+ 
 
+}
+h1,h2{
+  font-family: 'Italianno', cursive;
+  text-align: center;
+  color: palevioletred;
+}
+
+.cardtitlecode{
+  text-align: center;
+}
+p{
+  margin: 10px;
+  color: palevioletred;
+}
+span{
+  background-color:#1f1b1b;
+  padding: 30px;
 }
  
